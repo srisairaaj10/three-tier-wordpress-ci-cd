@@ -16,15 +16,18 @@ variable "credentials" {
 variable "my_ip" {
   description = "ip address"
   type        = string
+ default ="wordpress-app"
 }
 
 variable "zone_one" {
   description = "region"
   type        = string
+  default ="ap-south-1a"
 }
 
 variable "zone_two" {
   description = "region"
   type        = string
+  default= "ap-south-1b"
 
 }
