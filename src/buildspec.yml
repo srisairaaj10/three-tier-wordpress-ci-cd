@@ -29,6 +29,7 @@ phases:
       # Project-1: AWS VPC, ASG, ALB, Route53, ACM, Security Groups and SNS
       - cd "$CODEBUILD_SRC_DIR/infrastructure"
       - ls -lrt "$CODEBUILD_SRC_DIR/infrastructure"
+      - terraform init
       - terraform destroy -auto-approve
       # - terraform --version
       # - terraform init 
