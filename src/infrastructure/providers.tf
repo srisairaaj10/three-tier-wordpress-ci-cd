@@ -10,7 +10,7 @@ terraform {
 provider "aws" {
   region              = var.region
   shared_config_files = [var.config]
-  access_key          = "AKIAZISLZXFN2SPD5GXM"
-  secret_key          = "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"
+  access_key          = ""
+  secret_key          = ""
 
 }
